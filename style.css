@@ -1,0 +1,33 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background: burlywood;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+.header h2{
+    text-align: center;
+    color:rgba(5, 19, 25, 0.592);
+    font-size: 1.9rem;
+}
+
+.photos img{
+    width: 30%;
+    height: 40vh;
+    border-radius: 10px;
+    
+}
+
+.photos{
+    display:flex;
+    margin-top: 8rem;
+    justify-content: space-evenly;
+}
