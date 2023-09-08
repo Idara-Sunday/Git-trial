@@ -3,7 +3,37 @@
     margin: 0%;
     box-sizing: border-box;
 }
+/* navbar style starts here */
+.top{
+    background-color: #334463;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #fff;
 
+}
+h1{
+    margin-left: 1rem;
+}
+.sidebar{
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+    color: #fff;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 0.3rem;
+}
+a:hover{
+    color: blue;
+    transition-duration: 1s;
+}
+/* navbar style stops here */
 body{
     background: burlywood;
 }
@@ -11,7 +41,7 @@ section{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 3rem;
+    /* gap: 3rem; */
 }
 .header h2{
     text-align: center;
